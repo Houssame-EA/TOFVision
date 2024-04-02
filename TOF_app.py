@@ -191,8 +191,7 @@ if fl is not None:
         else:
             st.write('Required data not found in file.')
 
-@st.cache_data
-@st.cache_resource
+
 
 def plot_pie_chart_with_table(data, threshold, color_choices, title):
     data = data.apply(pd.to_numeric, errors='coerce').fillna(0)
@@ -236,8 +235,7 @@ def plot_pie_chart_with_table(data, threshold, color_choices, title):
     pio.write_image(fig, 'figure_high_res.png', width=1920, height=1080, scale=2)
     st.plotly_chart(fig)
 
-@st.cache_data
-@st.cache_resource
+
 
 def plot_histogram_for_element(data, element, color, bin_size, x_max, title):
     # Convert the selected column to numeric type
@@ -262,8 +260,7 @@ def plot_histogram_for_element(data, element, color, bin_size, x_max, title):
 # Assuming data_type, mass_data, and other variables are defined as in your code snippet
 
 
-@st.cache_data
-@st.cache_resource
+
 
 def get_combinations_and_related_data(mole_percent_data, mass_data, mass_percent_data, mole_data):
     start_time = time.time()
@@ -330,8 +327,7 @@ def get_combinations_and_related_data(mole_percent_data, mass_data, mass_percent
     
     return combinations, averages_df.transpose(), mole_percent_data_after_combination, mass_data_after_combination, mass_percent_data_after_combination, mole_data_after_combination, sd_df
 
-@st.cache_data
-@st.cache_resource
+
 
 def prepare_heatmap_data(mole_percent_data_after_combination, combinations, start=1, end=29):
     heatmap_df = pd.DataFrame()
@@ -362,8 +358,7 @@ def text_color_based_on_background(avg_value, min_val, max_val):
         return "white"  # Dark background
 
 
-@st.cache_data
-@st.cache_resource
+
 
 def plot_heatmap(heatmap_df, sd_df, text_size=10, selected_colorscale='ylGnBu'):
     elements = heatmap_df.columns.tolist()
@@ -415,8 +410,7 @@ def display_aggregated_data(aggregated_data, data_type):
     st.header(f"All {data_type.replace('_', ' ').title()}")
     st.dataframe(aggregated_data)
 
-@st.cache_data
-@st.cache_resource
+
 
 def aggregate_combination_data(data_dict):
     aggregated_df = pd.concat(data_dict.values(), keys=data_dict.keys())
