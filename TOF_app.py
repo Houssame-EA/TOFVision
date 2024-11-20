@@ -1,4 +1,3 @@
-
 """
 
 
@@ -46,7 +45,7 @@ warnings.filterwarnings('ignore')
 
 ###                             running the script                          streamlit run tofapp.py
 
-st.set_page_config(page_title='TOF-ICP-MS Analysis', page_icon=':atom_symbol:', layout='wide')
+st.set_page_config(page_title='TOFVision', page_icon=':atom_symbol:', layout='wide')
 
 # Groupe Prof. Kevin J. Wilkinson Biophysicochimie de l'environnement - Département de chimie - Université de Montréal - logo
 
@@ -67,7 +66,7 @@ st.markdown(f"""
     </div>
     """, unsafe_allow_html=True)
 
-st.title(""":atom_symbol: TOF-ICP-MS Data analysis 'Nu quant vitesse, SPCal""")
+st.title(""":atom_symbol: TOFVission""")
 st.markdown('<style>div.block-container{padding-top:1rem;}</style>', unsafe_allow_html=True)
 st.markdown(
     """
@@ -1983,7 +1982,7 @@ def combine_replicate_files(files):
     
 with tab2:
 
-    combine_files = st.checkbox('Combine multiple files?', key='combine_files_tab2')
+    combine_files = st.checkbox('Combine multiple Nu Quant Vitesse files?', key='combine_files_tab2')
     if 'all_files' not in st.session_state:
         st.session_state.all_files = []
     if 'current_files' not in st.session_state:
