@@ -107,4 +107,4 @@ Université de Montréal, Prof. Kevin J. Wilkinson Laboratory.
 
 ## Support
 
-For support, please contact [houssame-eddine.ahabchane@umontreal.ca] or visit our [laboratory website](https://kevinjwilkinson.openum.ca).
+For support, please contact [houssame-eddine.ahabchane@umontreal.ca] or visit our [Group website](https://kevinjwilkinson.openum.ca).
