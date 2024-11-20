@@ -344,6 +344,7 @@ with tab1:
                 if 'csv' in files[0].name:
                     cleaned_content = preprocess_csv_file(files[0])
                     base_df = pd.read_csv(StringIO(cleaned_content))
+                else:
                     st.error('File format not supported')
                     return None
 
