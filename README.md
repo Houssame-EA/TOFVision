@@ -25,7 +25,7 @@ A Streamlit web application TOFVision for analyzing Time-of-Flight Single Partic
 1. Ensure you have Python 3.8 or newer installed
 2. Clone the repository:
 ```bash
-git clone https://github.com/Houssame-EA/TOF.git
+git clone https://github.com/Houssame-EA/TOFVision.git
 ```
 
 3. Install required packages:
