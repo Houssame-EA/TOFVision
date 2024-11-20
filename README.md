@@ -1,6 +1,6 @@
-# TOF-ICP-MS Analysis
+# SP-TOF-ICP-MS Analysis 'TOFVision'
 
-A Streamlit web application for analyzing Time-of-Flight Single Particle Inductively Coupled Plasma Mass Spectrometry (SP-TOF-ICP-MS) data, developed at the Prof. Kevin J. Wilkinson Laboratory, Université de Montréal.
+A Streamlit web application TOFVision for analyzing Time-of-Flight Single Particle Inductively Coupled Plasma Mass Spectrometry (SP-TOF-ICP-MS) data, developed at the Prof. Kevin J. Wilkinson Laboratory, Université de Montréal.
 
 
 ## Features
@@ -9,19 +9,16 @@ A Streamlit web application for analyzing Time-of-Flight Single Particle Inducti
   - Mass distribution analysis
   - Element distribution visualization
   - Heatmap generation
-  - Statistical analysis of particle compositions
 
 - **Multi-File Analysis**
   - Batch processing of multiple files
   - Comparative analysis across samples
   - Combined data visualization
-  - Statistical comparisons
 
 - **Isotopic Ratio Analysis**
   - Mole ratio analysis
   - Isotopic ratio calculations
   - Natural abundance comparisons
-  - Confidence interval calculations
 
 ## Installation
 
@@ -46,9 +43,9 @@ streamlit run tofapp.py
 2. Access the application through your web browser (typically http://localhost:8501)
 
 3. Choose analysis type:
-   - Single File Analysis: Upload and analyze individual TOF-ICP-MS data files (Nu Quant Vitesse and SPCal format)
+   - Single File Analysis: Upload and analyze individual SP-TOF-ICP-MS data files (Nu Quant Vitesse and SPCal format)
    - Multi Files Analysis: Process and compare multiple files simultaneously (Nu Quant Vitesse)
-   - Isotopic Ratio Analysis: Perform detailed isotopic ratio calculations
+   - Isotopic Ratio Analysis: Perform detailed isotopic ratio calculations (Nu Quant Vitesse)
 
 4. Follow the sidebar options to customize your analysis
 
@@ -95,7 +92,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 If you use this software in your research, please cite:
 ```
-Ahabchane, H-E., Wu, A. (2024). TOF-ICP-MS Analysis Software. 
+Ahabchane, H-E., Wu, A. (2024). SP-TOF-ICP-MS Analysis Software. 
 Université de Montréal, Prof. Kevin J. Wilkinson Laboratory.
 ```
 
