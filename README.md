@@ -1,6 +1,6 @@
 # TOF-ICP-MS Analysis
 
-A Streamlit web application for analyzing Time-of-Flight Inductively Coupled Plasma Mass Spectrometry (TOF-ICP-MS) data, developed at the Prof. Kevin J. Wilkinson Laboratory, Université de Montréal.
+A Streamlit web application for analyzing Time-of-Flight Single Particle Inductively Coupled Plasma Mass Spectrometry (SP-TOF-ICP-MS) data, developed at the Prof. Kevin J. Wilkinson Laboratory, Université de Montréal.
 
 
 ## Features
