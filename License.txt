@@ -23,5 +23,5 @@ SOFTWARE.
 Citation
 If you use this software in your research, please cite:
 
-Ahabchane, H-E., Wu, A. (2024). TOF-ICP-MS Analysis Software. 
+https://github.com/Houssame-EA/TOFVision
 Université de Montréal, Prof. Kevin J. Wilkinson Laboratory.
