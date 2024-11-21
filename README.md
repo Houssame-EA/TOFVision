@@ -91,7 +91,8 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 If you use this software in your research, please cite:
 ```
-Ahabchane, H-E., Wu, A. (2024). SP-TOF-ICP-MS Analysis Software. 
+(https://github.com/Houssame-EA/TOFVision/tree/main)
+
 Université de Montréal, Prof. Kevin J. Wilkinson Laboratory.
 ```
 
