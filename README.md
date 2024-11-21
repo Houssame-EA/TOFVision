@@ -13,7 +13,6 @@ A Streamlit web application TOFVision for analyzing Time-of-Flight Single Partic
 - **Multi-File Analysis**
   - Batch processing of multiple files
   - Comparative analysis across samples
-  - Combined data visualization
 
 - **Isotopic Ratio Analysis**
   - Mole ratio analysis
