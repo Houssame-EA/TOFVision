@@ -66,7 +66,7 @@ st.markdown(f"""
     </div>
     """, unsafe_allow_html=True)
 
-st.title(""":atom_symbol: TOFVission""")
+st.title(""":atom_symbol: TOFVision""")
 st.markdown('<style>div.block-container{padding-top:1rem;}</style>', unsafe_allow_html=True)
 st.markdown(
     """
