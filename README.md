@@ -36,7 +36,7 @@ pip install -r requirements.txt
 
 1. Start the application:
 ```bash
-streamlit run tofapp.py
+streamlit run TOFVision.py
 ```
 
 2. Access the application through your web browser (typically http://localhost:8501)
