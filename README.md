@@ -91,7 +91,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 If you use this software in your research, please cite:
 ```
-(https://github.com/Houssame-EA/TOFVision/tree/main)
+Ahabchane, H.-E.; Wu, A.; Wilkinson, K.J. SP-TOF-ICP-MS Analysis 'TOFVision'. 2024. https://github.com/Houssame-EA/TOFVision/tree/main
 
 Université de Montréal, Prof. Kevin J. Wilkinson Laboratory.
 ```
